@@ -4,7 +4,7 @@ echo %TIME%
 echo  %DATE%
 color a
 set error=Enter A valid Option
-ipconfig /release
+ipconfig/release
 echo "Ouch you won't access internet again,sorry"
 echo "Y:Yes"
 echo "N:No"
@@ -22,6 +22,6 @@ if %key%=="010101000110010101110010011011010111010101111000010010000110000101100
 :congrats
 cls
 echo.
-ipconfig /renew
+ipconfig/renew
 echo "Congratulations, you have now access internet..Sorry for the stress
 exit /b 0
